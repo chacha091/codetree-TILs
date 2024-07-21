@@ -10,5 +10,8 @@ cnt=0
 for i in range(2,n,3):
         third_sum+=arr[i]
         cnt+=1
-
-print(even_sum,third_sum/cnt)
+if cnt>0:
+    avg=third_sum/cnt
+else:
+    avg=0
+print(even_sum,avg)
