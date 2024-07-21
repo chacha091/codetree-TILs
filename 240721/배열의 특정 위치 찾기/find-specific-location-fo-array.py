@@ -14,4 +14,4 @@ if cnt>0:
     avg=third_sum/cnt
 else:
     avg=0
-print(even_sum,avg)
+print(even_sum,f"{avg:.1f}")
